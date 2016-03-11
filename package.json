@@ -4,14 +4,10 @@
   "description": "Portfolio Website for Callum Hays",
   "main": "server.js",
   "repository": "",
-  "license": "BSD-3-Clause",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "license": "MIT",
+  "author": "Callum Hays <callumjhays@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
     "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  },
-  "devDependencies": {
     "jade": "^1.11.0"
   }
 }
