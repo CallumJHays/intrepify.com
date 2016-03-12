@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  background-image: -webkit-linear-gradient( right , #F0F, #ACA);
+  background-image: linear-gradient(to left, #F0F, #ACA);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s; }
