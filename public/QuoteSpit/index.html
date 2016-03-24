@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>QuoteSpit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel='stylesheet' href="/bower_components/animate.css/animate.css">
+  <script src="/bower_components/bootstrap/dist/css/bootstrap.css"></script>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="jumbotron" style="background: white;">
+      <h1>Quote<span style="color: #D32F2F;">Spit</span></h1>
+    </div>
+    <button class="btn btn-danger animated tada" id="quoteSpitter" onclick="getNewQuote();">Spit some fire</button>
+    <br><br><br>
+    <div class="well" id="quoteBox">"Spitting quotes like it's 1995!"<br>
+  - Some guy (probably).
+    </div><br>
+    <div id="tweetBtn">
+      <a class="twitter-share-button" href="https://twitter.com/intent/share" data-size="large" data-text='Spitting quotes like its 1995!" - Some guy (probably).' data-count="none" data-url=" " style="right:0; bottom: 0;">Tweet this</a>
+    </div>
+            
+  </div> <!-- /.container -->
+</body>

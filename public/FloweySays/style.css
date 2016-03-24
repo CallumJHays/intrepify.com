@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Determination;
+  src: url(/assets/DeterminationSansFont.ttf);
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Determination;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+button {
+  font-size: 32px;
+  margin: 10px;
+  width: 120px;
+  font-family: Determination;
+  color: white;
+  background-color: transparent;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#difficultyButton {
+  color: #FFEB3B;
+}
+
+#header {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#game {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  margin: 0 auto;
+}
+#game #flowey {
+  position: absolute;
+  width: 80px;
+  left: 120px;
+  top: 105px;
+}
+#game #counter {
+  position: absolute;
+  text-align: center;
+  width: 90px;
+  left: 115px;
+  top: 195px;
+  font-size: 28px;
+}
+#game .heart {
+  position: absolute;
+  width: 80px;
+  -webkit-transition: 0.2s;
+}
+#game #red {
+  left: 120px;
+}
+#game #blue {
+  top: 120px;
+}
+#game #green {
+  top: 240px;
+  left: 120px;
+}
+#game #yellow {
+  top: 120px;
+  right: 0px;
+}
