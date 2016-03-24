@@ -1,0 +1,26 @@
+{
+  "name": "intrepify.com",
+  "description": "Portfolio Website for Callum Hays",
+  "main": "server.js",
+  "authors": [
+    "Callum Hays <callumjhays@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CallumJHays/intrepify.com",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "Scrollify": "^0.1.13",
+    "typed.js": "^1.1.1",
+    "components-font-awesome": "^4.5.0"
+  }
+}

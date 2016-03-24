@@ -1,9 +1,153 @@
 doctype html
 html
-    head
-        title intrepify
-        link(rel="stylesheet" type="text/css" href="style.css")
-    
-    body
-        h1 intrepify.com
-        p lorem ipsum yadda yadda
+  head
+    title Intrepify
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Raleway')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Source+Code+Pro')
+    link(rel='stylesheet', href='/bower_components/components-font-awesome/css/font-awesome.css')
+    script(type='text/javascript', src='/bower_components/jquery/dist/jquery.js')
+    script(type='text/javascript', src='/bower_components/bootstrap/dist/js/bootstrap.js')
+    script(type='text/javascript', src='/bower_components/Scrollify/jquery.scrollify.js')
+    script(type='text/javascript', src='/bower_components/typed.js/js/typed.js')
+    script(src='script.js')
+    link(rel='stylesheet', type='text/css', href='style.css')
+
+  body
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-custom
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.clickable.sm-clickable(href='/') Intrepify
+          // /.navbar-header
+        #navbar.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li: a(href='/#2').clickable.sm-clickable Work
+            li: a(href='/#3').clickable.sm-clickable Play
+            li: a(href='/#4').clickable.sm-clickable About
+    // /nav
+
+    #section1.section
+      .container
+        .hero
+          h1 intrepify
+          h2 
+            span#stuff
+            |  by Callum Hays
+          hr
+          
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-twitter
+            |  Twitter
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-github
+            |  Github
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-linkedin
+            |  Linkedin
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-fire
+            |  FreeCodeCamp
+          
+    #section2.section
+      .container
+        h1 Work
+        p A list of projects I've worked on in my personal and professional career
+        hr
+        p Cards with modal links go here
+      
+    #section3.section
+      .container
+        h1 Play
+        p A bunch of random and cool fun stuff that I host on this site.
+        hr
+        .cardStand
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+          .cardWrapper
+            a(href="#" target="_blank")
+              .card.clickable.lg-clickable
+                h3 QuoteSpit
+                img.img-responsive(src="/img/QuoteSpit.JPG")
+                p A quirky random quote provider
+        
+    #section4.section
+      .container
+        h1 About
+        hr
+        .col-lg-8
+          p I am Callum Hays, a young developer and robotics enthusiast based in Brisbane, Australia. Currently studying part-time at QUT, I possess all the skills required by full-stack development
+          p Skills: Front-End + Back-End Web Development, Javascript, NodeJS, Jade, Sass, ReactJS, C++ and OpenCV
+        .col-lg-4
+          h2 Contact:
+          p Email: callumjhays@gmail.com
+
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-twitter
+            |  Twitter
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-github
+            |  Github
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-linkedin
+            |  Linkedin
+          a.btn.btn-default.clickable.md-clickable.custom-socialmed-button(href='https://twitter.com/CallumHays', target='_blank')
+            i.fa.fa-fire
+            |  FreeCodeCamp
+
+          form
+            .form-group
+              p Get in touch:
+              textarea#sendEmail.form-control(placeholder="Leave a message.")
+            .form-group
+              button.btn.btn-default(type="submit") Submit

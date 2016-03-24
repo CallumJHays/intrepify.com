@@ -1,9 +1,144 @@
 // style.scss
-@import "bourbon";
-@import "neat";
+$menu-background: rgba(256, 256, 256, 0.5);
+$card-background: rgba(256, 256, 256, 0.9);
+$text-color: rgba(256, 256, 256, 0.8);
+$menu-text-color: #000;
+$block-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+$text-shadow: 1px 1px 0.5px black;
+$background-gradient-light: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+$background-gradient-dark: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 
-html {
-	@include background-image( linear-gradient(to left, #F0F, #ACA) );
-	@include transition( all 0.8s );
+body {
+  font-family: Raleway, sans-serif;
+  color: $text-color;
+}
 
+.navbar-custom {
+  background-color: $menu-background;
+  border-color: transparent;
+  a {
+    color: $menu-text-color;
+    text-shadow: $text-shadow;
+  }
+}
+
+.clickable {
+  -webkit-transition: all 0.2s;
+}
+.sm-clickable:hover {
+  transform: scale(1.5);
+}
+.md-clickable:hover {
+  transform: scale(1.2);
+}
+.lg-clickable:hover {
+  transform: scale(1.1);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@mixin alignBackground {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section1 {
+  background: $background-gradient-light, url("/img/mountains.jpg");
+  @include alignBackground;
+}
+
+#section2 {
+  background: $background-gradient-light, url("/img/desert.jpg");
+  @include alignBackground;
+}
+
+#section3 {
+  background: $background-gradient-dark, url("/img/rainforest.jpg");
+  @include alignBackground;
+}
+
+#section4 {
+  background: $background-gradient-dark, url("/img/city.jpg");
+  @include alignBackground;
+}
+
+.hero {
+  margin: auto;
+  text-align: center;
+  h1 {
+    font-size: 20vmin;
+    color: $text-color;
+    text-shadow: $block-shadow;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-family: "Share Tech Mono", monospace;
+    color: $text-color;
+  }
+}
+
+.custom-socialmed-button {
+  box-shadow: $block-shadow;
+  background-color: $text-color;
+  font-size: 20px;
+  margin: 0 10px 20px;
+  border: 1px solid black;
+  text-shadow: $text-shadow;
+  &:hover {
+    background-color: black;
+    color: $text-color;
+  }
+}
+
+.cardStand {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+.cardWrapper {
+  padding: 1em;
+  display: inline-block;
+  background: transparent;
+  width: 300px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1em 1.5em;
+  color: $menu-text-color;
+  background-color: $menu-background;
+
+  h3 {
+    font-size: 1.3em;
+  }
+  img {
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 5px;
+  }
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+#sendEmail {
+  background-color: $menu-background;
+  color: $menu-text-color;
 }

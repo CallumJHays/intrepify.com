@@ -1,0 +1,108 @@
+body {
+  font-family: Raleway, sans-serif;
+  color: rgba(255, 255, 255, 0.8); }
+
+.navbar-custom {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent; }
+  .navbar-custom a {
+    color: #000;
+    text-shadow: 1px 1px 0.5px black; }
+
+.clickable {
+  -webkit-transition: all 0.2s; }
+
+.sm-clickable:hover {
+  transform: scale(1.5); }
+
+.md-clickable:hover {
+  transform: scale(1.2); }
+
+.lg-clickable:hover {
+  transform: scale(1.1); }
+
+.section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh; }
+  .section .container {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+#section1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/img/mountains.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+#section2 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/img/desert.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+#section3 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/img/rainforest.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+#section4 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/img/city.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.hero {
+  margin: auto;
+  text-align: center; }
+  .hero h1 {
+    font-size: 20vmin;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7); }
+  .hero h2 {
+    font-size: 1.5em;
+    font-family: "Share Tech Mono", monospace;
+    color: rgba(255, 255, 255, 0.8); }
+
+.custom-socialmed-button {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  margin: 0 10px 20px;
+  border: 1px solid black;
+  text-shadow: 1px 1px 0.5px black; }
+  .custom-socialmed-button:hover {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8); }
+
+.cardStand {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 200px; }
+
+.cardWrapper {
+  padding: 1em;
+  display: inline-block;
+  background: transparent;
+  width: 300px; }
+  .cardWrapper a {
+    text-decoration: none; }
+
+.card {
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1em 1.5em;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .card h3 {
+    font-size: 1.3em; }
+  .card img {
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 5px; }
+  .card p {
+    margin-top: 0.5em; }
+
+#sendEmail {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000; }
