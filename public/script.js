@@ -1,4 +1,5 @@
 $(function() {
+
   function onScrollBegin(sectionIndex, sectionArray){
     if(sectionIndex === 0){
       $("#section1").animate({
@@ -48,7 +49,7 @@ $(function() {
 
   setTimeout(function(){
     $.scrollify({
-      section : ".section",
+      section: '.section', 
       scrollSpeed: 1500,
       before: onScrollBegin,
       after: onScrollEnd
