@@ -2,6 +2,7 @@ doctype html
 html
   head
     title Intrepify
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Raleway')
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Source+Code+Pro')
@@ -30,7 +31,7 @@ html
             li: a(href='/#3').clickable.sm-clickable Play
             li: a(href='/#4').clickable.sm-clickable About
     // /nav
-
+        
     #section1.section
       .container
         .hero
@@ -58,7 +59,6 @@ html
         h1 Work
         p A list of projects I've worked on in my personal and professional career
         hr
-        p Cards with modal links go here
       
     #section3.section
       .container
@@ -66,61 +66,27 @@ html
         p A bunch of random and cool fun stuff that I host on this site.
         hr
         .cardStand
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-          .cardWrapper
-            a(href="#" target="_blank")
-              .card.clickable.lg-clickable
-                h3 QuoteSpit
-                img.img-responsive(src="/img/QuoteSpit.JPG")
-                p A quirky random quote provider
-        
+          each project in projects
+            if project.type === "play"
+              .cardWrapper
+                a(data-toggle="modal" data-target= ("#projectModal"+project._id))
+                  .card.clickable.lg-clickable
+                    h3= project.name
+                    img.img-responsive(src= project.imgURL)
+                    p= project.shortDesc
+                .modal.fade(role='dialog' id= ("projectModal"+project._id))
+                  .modal-dialog
+                    .modal-content
+                      .modal-header
+                        button.close(type='button', data-dismiss='modal') ×
+                        h4.modal-title= project.name
+                      .modal-body
+                        img.img-responsive.text-center(src= project.imgURL)
+                        p= project.longDesc
+                      .modal-footer
+                        a.btn.btn-success(target="_blank", href= project.URL) Try it out
+                        button.btn.btn-default(type='button', data-dismiss='modal') Close
+
     #section4.section
       .container
         h1 About

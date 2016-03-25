@@ -1,6 +1,6 @@
 // style.scss
 $menu-background: rgba(256, 256, 256, 0.5);
-$card-background: rgba(256, 256, 256, 0.9);
+$card-background: rgba(256, 256, 256, 0.7);
 $text-color: rgba(256, 256, 256, 0.8);
 $menu-text-color: #000;
 $block-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
@@ -48,6 +48,15 @@ body {
 @mixin alignBackground {
   background-size: cover;
   background-attachment: fixed;
+}
+
+.modal {
+  color: $menu-text-color;
+  .modal-content {
+    .img-responsive {
+      margin: 10px auto;
+    }
+  }
 }
 
 #section1 {
@@ -123,7 +132,9 @@ body {
   border-radius: 10px;
   padding: 1em 1.5em;
   color: $menu-text-color;
-  background-color: $menu-background;
+  background-color: $card-background;
+  box-shadow: $block-shadow;
+
 
   h3 {
     font-size: 1.3em;
