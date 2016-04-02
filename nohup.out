@@ -326,3 +326,349 @@ Error: listen EADDRINUSE :::8081
 [0mGET /stylesheets/theme/rubyblue.css [36m304 [0m1.327 ms - -[0m
 [0mGET /images/mongo-express-logo.png [36m304 [0m1.020 ms - -[0m
 [0mGET /fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.525 ms - -[0m
+mongodb://almondkernel:haggler12@localhost:27017/intrepify
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:890:11)
+    at exports._exceptionWithHostPort (util.js:913:20)
+    at Server._listen2 (net.js:1231:14)
+    at listen (net.js:1267:10)
+    at Server.listen (net.js:1363:5)
+    at Function.app.listen (/home/bluedolph/intrepify.com/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/home/bluedolph/intrepify.com/server.js:48:5)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:141:18)
+    at node.js:933:3
+mongodb://almondkernel:haggler12@localhost:27017/intrepify
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:890:11)
+    at exports._exceptionWithHostPort (util.js:913:20)
+    at Server._listen2 (net.js:1231:14)
+    at listen (net.js:1267:10)
+    at Server.listen (net.js:1363:5)
+    at Function.app.listen (/home/bluedolph/intrepify.com/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/home/bluedolph/intrepify.com/server.js:48:5)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:141:18)
+    at node.js:933:3
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module '/home/bluedolph/intrepify.com/sserver.js'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:141:18)
+    at node.js:933:3
+mongodb://almondkernel:haggler12@localhost:27017/intrepify
+Listening on port 80!
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90mrender:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/animate.css/animate.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/animate.css/animate.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/animate.css/animate.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/QuoteSpit/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/QuoteSpit/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/QuoteSpit/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/FloweySays/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/FloweySays/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/animate.css/animate.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/animate.css/animate.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/animate.css/animate.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/QuoteSpit/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/QuoteSpit/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/QuoteSpit/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/projects/quoteSpit/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/projects/quoteSpit/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/projects/quoteSpit/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/animate.css/animate.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/animate.css/animate.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/animate.css/animate.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/QuoteSpit/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/QuoteSpit/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/QuoteSpit/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/bootstrap/dist/css/bootstrap.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/bootstrap/dist/css/bootstrap.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/bower_components/components-font-awesome/css/font-awesome.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/bower_components/components-font-awesome/css/font-awesome.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/FloweySays/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90msource:[0m [36m/home/bluedolph/intrepify.com/views/sass/FloweySays/style.scss[0m
+  [90mdest:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m
+  [90mread:[0m [36m/home/bluedolph/intrepify.com/public/FloweySays/style.css[0m

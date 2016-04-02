@@ -1,0 +1,19 @@
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:890:11)
+    at exports._exceptionWithHostPort (util.js:913:20)
+    at Server._listen2 (net.js:1231:14)
+    at listen (net.js:1267:10)
+    at Server.listen (net.js:1363:5)
+    at Function.app.listen (/home/bluedolph/intrepify.com/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/home/bluedolph/intrepify.com/server.js:48:5)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:141:18)
+    at node.js:933:3
