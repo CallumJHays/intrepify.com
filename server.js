@@ -36,6 +36,9 @@ app.use(express.static(__dirname + '/public'));
 // bower components for front-end javascript
 app.use('/bower_components/', express.static(__dirname + '/bower_components'));
 
+// use pollinator submodule
+app.use('/pollinator', require('pollinator')('/pollinator'))
+
 // / -> index
 app.get('/', function(req, res){
   Project.find({}, function(err, projects){
